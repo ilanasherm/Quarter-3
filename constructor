@@ -1,0 +1,18 @@
+import java.io.*;
+
+class constructor {
+    int num;
+    String name;
+    
+    constructor() {
+        System.out.println("Constructor");
+    }
+}
+    class GFG {
+        public static void main(String[] args){
+            Geek geek1 = new Geek();
+            
+            System.out.println(geek1.name);
+            System.out.println(geek1.num);
+        }
+}
