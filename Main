@@ -1,0 +1,11 @@
+lic class Main {
+    static void myMethod(String fname) {
+        System.out.println(fname + "Khari");
+    }
+    
+    public static void main(String[] args) {
+        myMethod("Salmon");
+        myMethod("Shahrukh");
+        myMethod("Anju");
+    }
+}
