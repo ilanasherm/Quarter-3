@@ -1,0 +1,20 @@
+**
+ * user input for speed of car
+ *
+ * @ilanasherman
+ * @1/19/23
+ */
+public class Main{
+    public void fullThrotle(){
+        System.out.println("The car is going as fast as it can");
+    }
+    public void  speed(int maxSpeed) {
+        System.out.println("Max speed is: " + maxSpeed);
+    }
+    public static void main(String[] args){
+        Main myCar = new Main();
+        myCar.fullThrottle();
+        myCar.speed(200);
+        Scanner sc1 = new Scanner(InputStream( ) );
+    }
+}
