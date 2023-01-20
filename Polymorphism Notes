@@ -1,0 +1,47 @@
+/**
+ * Definition of Polymorphism in java - many forms
+ *
+ * @ilana sherman 
+ * why: preserve codeand reuse code
+ */
+
+public class Polymorphism
+{
+    public void mammal() {
+        System.out.println("The mammals have Mamarian glands");
+    }
+}
+class Dog extends Polymorphism{
+    public void mammal(){
+        System.out.println("is a mammal");
+    }
+}
+class Snail extends Polymorphism{
+    public void mammal(){
+        System.out.println("not a mammal");
+    }
+}
+class Hedgehog extends Polymorphism{
+    public void mammal(){
+        System.out.println("is a mammal");
+    }
+}
+class Ciaran extends Polymorphism{
+    public void mammal(){
+        System.out.println("is a mammal");
+    }
+}
+class MainSpecies{
+    public static void main(String[] args){
+        Polymorphism myPolymorphism = new Polymorphism();
+        Polymorphism myDog = new Dog();
+        Polymorphism mySnail = new Snail();
+        Polymorphism myHedgehog = new Hedgehog();
+        Polymorphism myCiaran = new Ciaran();
+        myPolymorphism.mammal();
+        myDog.mammal();
+        mySnail.mammal();
+        myHedgehog.mammal();
+        myCiaran.mammal();
+    }
+}
