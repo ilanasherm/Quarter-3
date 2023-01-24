@@ -1,0 +1,14 @@
+class-In object-oriented programming , a class is a template definition of the method s and variable s in a particular kind of object . 
+Thus, an object is a specific instance of a class; it contains real values instead of variables.
+
+
+super clas/parent class- A class that is derived from another class is called a subclass (also a derived class, extended class, or child class). 
+The class from which the subclass is derived is called a superclass (also a base class or a parent class).
+
+
+sub class- Subclasses, also referred to as derived classes, heir classes, or child classes, 
+are classes that inherit one or more language entities from another class/classes.
+
+
+reuseablity- Code reusability is the capacity to repurpose pre-existing code when developing new software applications. 
+Ideally, code reuse should be easy to implement, and any stable, functional code could freely be reused when building a new software app
