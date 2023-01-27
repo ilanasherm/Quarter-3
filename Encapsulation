@@ -1,0 +1,34 @@
+// fields to calculate area
+class Area {
+
+    private int length;
+    private int width;
+    // constructor to initialize values
+     public int getLength(){
+        return length;
+    }
+    public int getWidth(){
+        return width;
+    }
+    public void setLength(int newLength) {
+        this.length = newLength;
+    }
+    public void setWidth(int newWidth){
+        this.width = newWidth;
+    }
+    
+
+    // method to calculate area
+    void Area(int length, int width) {
+	int Area = length * width;
+	System.out.println("Area: " + Area);
+    }
+}
+
+
+public class main {
+    public static void main(String[] args) {
+        Area rectangle = new Area(2,16);
+    }
+}
+    
